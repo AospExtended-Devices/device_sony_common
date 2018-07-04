@@ -87,11 +87,6 @@ PRODUCT_PACKAGES += \
     init.qcom.devstart.sh \
     init.qcom.ipastart.sh
 
-# APN list
-PRODUCT_COPY_FILES += \
-    device/sample/etc/old-apns-conf.xml:system/etc/old-apns-conf.xml \
-    device/sample/etc/apns-full-conf.xml:system/etc/apns-conf.xml
-
 PRODUCT_CUSTOM_IMAGE_MAKEFILES := $(COMMON_PATH)/odm.mk
 
 $(call inherit-product, device/sony/common/common-init.mk)
