@@ -1,0 +1,15 @@
+[
+ { 
+    "remote":      "github",
+    "repository":  "sonyxperiadev/device-sony-sepolicy",
+    "target_path": "device/sony/sepolicy",
+    "branch":      "master"
+  }, {
+    "remote":      "github",
+    "repository":  "sonyxperiadev/packages_apps_ExtendedSettings",
+    "target_path": "packages/apps/ExtendedSettings",
+    "branch":      "master"
+  }
+]
+
+
